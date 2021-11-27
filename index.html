@@ -58,7 +58,7 @@
 
           </div>
 
-          <div class="portfolio-item-wrapper">
+          <div class="portfolio-item-wrapper" onclick="location.href='https://github.com/JoeMoncrieff/MushBlock'">
 
               <div class="portfolio-img-background" style="background-image:url(images/MushBlockGif.gif)">
               </div>
@@ -72,7 +72,7 @@
           </div>
 
 
-          <div class="portfolio-item-wrapper">
+          <div class="portfolio-item-wrapper" onclick="location.href='https://github.com/JoeMoncrieff/Discord-Posture-Bot'">
 
             <div class="portfolio-img-background" style="background-image:url(images/DiscordSlouchBot.gif)">
             </div>
@@ -86,7 +86,7 @@
 
           </div>
 
-          <div class="portfolio-item-wrapper">
+          <div class="portfolio-item-wrapper" onclick="location.href='https://github.com/JoeMoncrieff/DvaBombTraining'">
 
             <div class="portfolio-img-background" style="background-image:url(images/DvaGif.gif)">
             </div>
@@ -95,30 +95,31 @@
               <div class="logo-wrapper">
               </div>
 
-              <div class="subtitle">I built a training code using Overwatch's coding platform</div>
+              <div class="subtitle">I built a training mode using Overwatch's Workshop coding platform</div>
             </div>
 
           </div>
-
-
 
         </div>
       </div>
     </div>
 </body>
+
 <script>
 
   const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
 
   portfolioItems.forEach(portfolioItem => {
-    portfolioItem.addEventListener('mouseover', () => {
-      portfolioItem.childNodes[1].classList.add('img-darken');
-    })
+  portfolioItem.addEventListener('mouseover', () => {
+    portfolioItem.childNodes[1].classList.add('img-darken');
+  })
 
-    portfolioItem.addEventListener('mouseout', () => {
-      portfolioItem.childNodes[1].classList.remove('img-darken');
-    })
+  portfolioItem.addEventListener('mouseout', () => {
+    portfolioItem.childNodes[1].classList.remove('img-darken');
+  })
   })
 
 </script>
+
 </html>
+
