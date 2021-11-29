@@ -86,7 +86,7 @@ body {
 
 
 .portfolio-img-background {
-  height:350px;
+  height:300px;
   width:100%;
   background-size: contain;
   background-position: center;
@@ -122,4 +122,51 @@ body {
 .img-darken {
   transition: 1s;
   filter: brightness(10%);
+}
+
+
+/* About Me Styles */
+
+.info_wrapper {
+  display:flex;
+}
+
+
+/* About me text styles */
+
+.about-text-container {
+  margin-left:30px;
+  margin-right:30px;
+  background-color:#7FFFD4;
+  border-radius:30px;
+  
+  padding-left:30px;
+  padding-right:30px;
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+
+}
+
+.about-text {
+  font-weight: 600;
+  color: black;
+  width:100%;
+}
+
+
+/* About me Picture Styles */
+
+.about_picture {
+  width: 40%;
+  margin-left:5%;
+
+}
+
+.pro_pic {
+  width: 100%;
+  height: auto;
+  border-radius:30px;
 }
