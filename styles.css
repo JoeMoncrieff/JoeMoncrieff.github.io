@@ -170,3 +170,24 @@ body {
   height: auto;
   border-radius:30px;
 }
+
+
+/*Videos section*/
+
+.video-content-wrapper {
+}
+
+.shorts-container {
+  display: flex;
+  justify-content: center;
+}
+
+.short{
+  margin-left:2px;
+  margin-right:2px;
+}
+
+.section-text {
+  color: #8a8a8a;
+  margin-left: 15px;
+}
