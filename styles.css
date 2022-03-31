@@ -15,7 +15,10 @@ body {
 .nav-wrapper{
   display:flex;
   justify-content: space-between;
-  padding:38px;
+  padding-left:19px;
+  padding-right: 19px;
+  padding-top: 19px;
+  padding-bottom: 3px;
 }
 
 .left-side{
@@ -23,7 +26,7 @@ body {
 }
 
 .nav-wrapper > .left-side > div {
-  margin-right: 20px;
+  margin: 10px;
   font-size: 0.9em;
 
 }
@@ -139,10 +142,10 @@ body {
   margin-right:30px;
   background-color:#7FFFD4;
   border-radius:30px;
-  
+
   padding-left:30px;
   padding-right:30px;
-  
+
   display:flex;
   justify-content:center;
   align-items:center;
