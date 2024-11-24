@@ -80,19 +80,26 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-
 .portfolio-item-wrapper {
-  position: relative;
+  position: sticky;
   cursor:pointer;
 }
 
 
 .portfolio-img-background {
-  height:300px;
-  width:100%;
-  background-size: contain;
-  background-position: center;
+  max-width: 100%;
+  height: 200px;
+  background-size:contain;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+.portfolio-img-test {
+  max-width: 100%;
+  height: auto;
+  width: 100%; /* ie8 */
+  background-size:cover;
+  background-position:center;
   background-repeat: no-repeat;
 }
 
@@ -193,4 +200,13 @@ body {
 .section-text {
   color: #8a8a8a;
   margin-left: 15px;
+}
+
+/* Phone resizing */
+
+@media (max-width: 600px) {
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
